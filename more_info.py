@@ -39,5 +39,12 @@ if half_cubes > 0:
   plt.axis('off')  # Hide the axis labels
   plt.show()
 
+# ********** Steps ***************
+total_calories=nutrition_data['Calories']
+print("")
+print("To burn",total_calories, "calories")
+print("You need to walk",total_calories * 25,"Steps")
+
+
 
 
